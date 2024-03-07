@@ -11,13 +11,17 @@ const monsterHealthText=document.querySelector("#monsterHealth")
 
 
 function goStore() {
-    console.log("Going to store.");
+    button1.innerText = "Buy 10 health (10 gold)";
 }
 
 function goCave() {
-    console.log("Going to cave.");
-}
+    button2.innerText = "Buy weapon (30 gold)";
+  }
 
+function fightDragon() {
+    button3.innerText = "Go to town square";
+  }
+  
 //initialize buttons
 
 button1.onclick = goStore;
